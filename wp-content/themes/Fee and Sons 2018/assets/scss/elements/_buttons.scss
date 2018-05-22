@@ -1,0 +1,157 @@
+/*=================================================
+Buttons
+=================================================== */
+
+.btn {
+	color: $shaft;
+	padding: 10px;
+	background: $primary-color;
+	transition: background .25s ease-in-out;
+	
+	&:hover {
+		background: $white;
+		color: $shaft;
+
+	}
+	
+	a {
+		text-decoration: none;
+		color: $white;
+		padding: 10px;
+
+		
+		&:hover {
+			color: $shaft;
+
+		}
+	}
+
+}
+
+.btn-primary {
+	color: $shaft;
+	padding: 10px;
+	width: 35%;
+	text-align: center;
+	background: $primary-color;
+	transition: background .25s ease-in-out;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	-khtml-border-radius: 7px;
+	
+	&:hover {
+		background: $shaft;
+		color: $white;
+
+	}
+	
+	a {
+		text-decoration: none;
+		color: $shaft;
+		padding: 10px;
+
+		
+		&:hover {
+			color: $white;
+
+		}
+	}
+
+
+
+	@media screen and (max-width: 756px) {
+		padding: 5px;	
+		width: 100%;	
+}
+
+
+}
+.btn-secondary {
+	color: $shaft;
+	padding: 10px;
+	width: 35%;
+	background: $white;
+	text-align: center;
+	border: 1px solid $shaft;
+	transition: background .25s ease-in-out;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	-khtml-border-radius: 7px;	
+	&:hover {
+		background: $shaft;
+		color: $white;
+
+	}
+	
+	a {
+		text-decoration: none;
+		color: $shaft;
+		padding: 10px;
+
+		
+		&:hover {
+			color: $white;
+
+		}
+	}
+	@media screen and (max-width: 756px) {
+		padding: 5px;	
+		width: 100%;	
+}
+
+}
+.btn-tertiary {
+	color: $white;
+	padding: 10px;
+	width: 35%;
+	background: $shaft;
+	text-align: center;
+	transition: background .25s ease-in-out;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	-khtml-border-radius: 7px;	
+	&:hover {
+		background: $white;
+		color: $shaft;
+
+	}
+	
+	a {
+		text-decoration: none;
+		color: $white;
+		padding: 10px;
+
+		
+		&:hover {
+			color: $shaft;
+
+		}
+	}
+	@media screen and (max-width: 756px) {
+		padding: 5px;	
+		width: 100%;	
+}
+
+}
+
+
+  /*------------------------------------------------------------------------*\
+  Submit Buttons
+  \*------------------------------------------------------------------------*/
+  input[type="submit"],
+  button[type="submit"],
+  .btn.btn-submit {
+
+    /*  Submit Button Hover Styling  */
+    /*  ---------------------------------------------------*/
+    &:hover {
+      background-color: darken($secondary-color, 20%);
+      border-color: darken($secondary-color, 20%);
+      color: $white;
+    }
+
+    } // End Submit Button Styling ---->
+    

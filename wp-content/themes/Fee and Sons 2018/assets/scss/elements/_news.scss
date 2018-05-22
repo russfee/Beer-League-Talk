@@ -1,0 +1,58 @@
+/*=================================================
+NEWS SCSS
+=================================================== */
+
+
+.news-story-container {
+	padding: 20px 0;
+	//border-bottom: 3px solid #D9EE12;
+	display: flex;
+	flex-flow: column;
+	
+	&:last-of-type {
+		border: none;
+	}
+	
+
+}
+.news-date {
+	margin-top: -10px;
+	padding: 0 0 10px 0;
+}
+
+.story-content-container {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	
+		@media screen and (max-width: 600px) {
+		flex-flow: column;
+}
+
+}
+.story-image {
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	//flex: 1;
+	
+	@media screen and (max-width: 600px) {
+		width: 100%;
+	
+}
+
+}
+.story-content{
+	//flex: 1;
+	width: 350px;
+	margin: 0 0 0 40px;
+	
+	@media screen and (max-width: 600px) {
+		width: 100%;	
+		margin: 0;	
+}
+
+}

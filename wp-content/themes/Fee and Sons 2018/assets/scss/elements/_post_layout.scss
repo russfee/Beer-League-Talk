@@ -1,0 +1,45 @@
+/*=================================================
+Post_Layout SCSS
+=================================================== */
+
+.post-page-master-container {
+	
+	.home-posts-posts {
+		width: 85%;
+		padding-right: 40px;
+		
+		@media screen and (max-width: 756px) {
+			width: 100%;
+			padding-right: 0;	
+}
+
+	}
+	
+	.story-content-container {
+		justify-content: flex-start;
+	}
+	
+	
+	
+	
+	
+} 
+
+.main-post-container {
+	display: flex;
+	flex-flow: row;
+}
+
+.post-content {
+	width: 100%;
+}
+
+.post-sidebar {
+	width: 35%;
+	margin-left: 80px;
+	
+	.home-posts-sidebar {
+		width: 100%;
+		text-align: right;
+	}
+}

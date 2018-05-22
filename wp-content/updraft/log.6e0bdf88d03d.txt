@@ -1,0 +1,295 @@
+0000.002 (0) Opened log file at time: Wed, 16 May 2018 22:27:53 +0000 on http://beerleaguedev.local
+0000.006 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.14.7.1 WP: 4.9.5 PHP: 7.1.8 (apache2handler, Darwin Russs-MBP.hitronhub.home 16.7.0 Darwin Kernel Version 16.7.0: Tue Jan 30 11:27:06 PST 2018; root:xnu-3789.73.11~1/RELEASE_X86_64 x86_64) MySQL: 5.6.35 WPLANG: en_CA Server: Apache/2.2.32 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.1.8 mod_ssl/2.2.32 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 44.2M | 8M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.009 (0) Free space on disk containing Updraft's temporary directory: 87079.7 MB
+0000.018 (0) Tasks: Backup files:  (schedule: monthly) Backup DB: 1 (schedule: daily)
+0000.019 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 1
+0000.031 (0) Requesting semaphore lock (d) (apparently via scheduler: last_scheduled_action_called_at=1526402468, seconds_ago=107205)
+0000.036 (0) Set semaphore last lock (d) time to 2018-05-16 22:27:53
+0000.037 (0) Semaphore lock (d) complete
+0000.043 (0) Backup run: resumption=0, nonce=6e0bdf88d03d, begun at=1526509673 (0s ago), job type=backup
+0000.046 (0) Scheduling a resumption (1) after 300 seconds (1526509973) in case this run gets aborted
+0000.069 (0) This backup run is not intended for files - skipping
+0000.071 (0) Beginning creation of database dump (WordPress DB)
+0000.124 (0) Table wp_beerleagueoptions: Total expected rows (approximate): 342
+0000.154 (0) Table wp_beerleagueoptions: Total rows added: 338 in 0.03 seconds
+0000.156 (0) Table wp_beerleagueoptions: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleagueoptions.table.gz - 28.6 KB)
+0000.168 (0) Table wp_beerleagueusers: Total expected rows (approximate): 1
+0000.180 (0) Table wp_beerleagueusers: Total rows added: 1 in 0.01 seconds
+0000.181 (0) Table wp_beerleagueusers: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleagueusers.table.gz - 0.5 KB)
+0000.189 (0) Table wp_beerleagueusermeta: Total expected rows (approximate): 29
+0000.196 (0) Table wp_beerleagueusermeta: Total rows added: 29 in 0.01 seconds
+0000.198 (0) Table wp_beerleagueusermeta: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleagueusermeta.table.gz - 1.5 KB)
+0000.223 (0) Table wp_beerleaguecommentmeta: Total expected rows (approximate): 0
+0000.228 (0) Table wp_beerleaguecommentmeta: Total rows added: 0 in 0.00 seconds
+0000.230 (0) Table wp_beerleaguecommentmeta: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguecommentmeta.table.gz - 0.3 KB)
+0000.245 (0) Table wp_beerleaguecomments: Total expected rows (approximate): 1
+0000.251 (0) Table wp_beerleaguecomments: Total rows added: 1 in 0.01 seconds
+0000.253 (0) Table wp_beerleaguecomments: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguecomments.table.gz - 0.7 KB)
+0000.263 (0) Table wp_beerleaguelinks: Total expected rows (approximate): 0
+0000.270 (0) Table wp_beerleaguelinks: Total rows added: 0 in 0.01 seconds
+0000.271 (0) Table wp_beerleaguelinks: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguelinks.table.gz - 0.4 KB)
+0000.279 (0) Table wp_beerleaguepostmeta: Total expected rows (approximate): 11862
+0000.759 (0) Table wp_beerleaguepostmeta: Total rows added: 11862 in 0.48 seconds
+0000.765 (0) Table wp_beerleaguepostmeta: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguepostmeta.table.gz - 113.8 KB)
+0000.776 (0) Table wp_beerleagueposts: Total expected rows (approximate): 449
+0000.857 (0) Table wp_beerleagueposts: Total rows added: 449 in 0.08 seconds
+0000.860 (0) Table wp_beerleagueposts: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleagueposts.table.gz - 20.8 KB)
+0000.872 (0) Table wp_beerleagueterm_relationships: Total expected rows (approximate): 13
+0000.908 (0) Table wp_beerleagueterm_relationships: Total rows added: 13 in 0.02 seconds
+0000.914 (0) Table wp_beerleagueterm_relationships: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleagueterm_relationships.table.gz - 0.4 KB)
+0000.925 (0) Table wp_beerleagueterm_taxonomy: Total expected rows (approximate): 3
+0000.937 (0) Table wp_beerleagueterm_taxonomy: Total rows added: 3 in 0.01 seconds
+0000.939 (0) Table wp_beerleagueterm_taxonomy: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleagueterm_taxonomy.table.gz - 0.4 KB)
+0000.953 (0) Table wp_beerleaguetermmeta: Total expected rows (approximate): 0
+0000.961 (0) Table wp_beerleaguetermmeta: Total rows added: 0 in 0.01 seconds
+0000.964 (0) Table wp_beerleaguetermmeta: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguetermmeta.table.gz - 0.3 KB)
+0000.976 (0) Table wp_beerleagueterms: Total expected rows (approximate): 3
+0000.988 (0) Table wp_beerleagueterms: Total rows added: 3 in 0.01 seconds
+0000.989 (0) Table wp_beerleagueterms: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleagueterms.table.gz - 0.4 KB)
+0000.998 (0) Table wp_beerleaguegf_draft_submissions: Total expected rows (approximate): 0
+0001.007 (0) Table wp_beerleaguegf_draft_submissions: Total rows added: 0 in 0.01 seconds
+0001.009 (0) Table wp_beerleaguegf_draft_submissions: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguegf_draft_submissions.table.gz - 0.4 KB)
+0001.019 (0) Table wp_beerleaguegf_entry: Total expected rows (approximate): 0
+0001.027 (0) Table wp_beerleaguegf_entry: Total rows added: 0 in 0.01 seconds
+0001.028 (0) Table wp_beerleaguegf_entry: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguegf_entry.table.gz - 0.5 KB)
+0001.044 (0) Table wp_beerleaguegf_entry_meta: Total expected rows (approximate): 0
+0001.053 (0) Table wp_beerleaguegf_entry_meta: Total rows added: 0 in 0.01 seconds
+0001.055 (0) Table wp_beerleaguegf_entry_meta: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguegf_entry_meta.table.gz - 0.4 KB)
+0001.063 (0) Table wp_beerleaguegf_entry_notes: Total expected rows (approximate): 0
+0001.074 (0) Table wp_beerleaguegf_entry_notes: Total rows added: 0 in 0.01 seconds
+0001.076 (0) Table wp_beerleaguegf_entry_notes: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguegf_entry_notes.table.gz - 0.4 KB)
+0001.088 (0) Table wp_beerleaguegf_form: Total expected rows (approximate): 1
+0001.101 (0) Table wp_beerleaguegf_form: Total rows added: 1 in 0.01 seconds
+0001.103 (0) Table wp_beerleaguegf_form: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguegf_form.table.gz - 0.4 KB)
+0001.114 (0) Table wp_beerleaguegf_form_meta: Total expected rows (approximate): 1
+0001.125 (0) Table wp_beerleaguegf_form_meta: Total rows added: 1 in 0.01 seconds
+0001.127 (0) Table wp_beerleaguegf_form_meta: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguegf_form_meta.table.gz - 1.2 KB)
+0001.140 (0) Table wp_beerleaguegf_form_view: Total expected rows (approximate): 1
+0001.150 (0) Table wp_beerleaguegf_form_view: Total rows added: 1 in 0.01 seconds
+0001.151 (0) Table wp_beerleaguegf_form_view: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguegf_form_view.table.gz - 0.4 KB)
+0001.159 (0) Table wp_beerleagueresponsive_menu_pro: Total expected rows (approximate): 276
+0001.168 (0) Table wp_beerleagueresponsive_menu_pro: Total rows added: 276 in 0.01 seconds
+0001.170 (0) Table wp_beerleagueresponsive_menu_pro: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleagueresponsive_menu_pro.table.gz - 2.3 KB)
+0001.180 (0) Table wp_beerleaguewfBadLeechers: Total expected rows (approximate): 0
+0001.185 (0) Table wp_beerleaguewfBadLeechers: Total rows added: 0 in 0.00 seconds
+0001.187 (0) Table wp_beerleaguewfBadLeechers: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfBadLeechers.table.gz - 0.3 KB)
+0001.193 (0) Table wp_beerleaguewfBlockedCommentLog: Total expected rows (approximate): 0
+0001.198 (0) Table wp_beerleaguewfBlockedCommentLog: Total rows added: 0 in 0.00 seconds
+0001.200 (0) Table wp_beerleaguewfBlockedCommentLog: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfBlockedCommentLog.table.gz - 0.3 KB)
+0001.205 (0) Table wp_beerleaguewfBlockedIPLog: Total expected rows (approximate): 1
+0001.211 (0) Table wp_beerleaguewfBlockedIPLog: Total rows added: 1 in 0.00 seconds
+0001.213 (0) Table wp_beerleaguewfBlockedIPLog: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfBlockedIPLog.table.gz - 0.4 KB)
+0001.218 (0) Table wp_beerleaguewfBlocks7: Total expected rows (approximate): 0
+0001.224 (0) Table wp_beerleaguewfBlocks7: Total rows added: 0 in 0.00 seconds
+0001.225 (0) Table wp_beerleaguewfBlocks7: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfBlocks7.table.gz - 0.4 KB)
+0001.230 (0) Table wp_beerleaguewfConfig: Total expected rows (approximate): 232
+0001.297 (0) Table wp_beerleaguewfConfig: Total rows added: 232 in 0.07 seconds
+0001.300 (0) Table wp_beerleaguewfConfig: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfConfig.table.gz - 355.6 KB)
+0001.306 (0) Table wp_beerleaguewfCrawlers: Total expected rows (approximate): 0
+0001.312 (0) Table wp_beerleaguewfCrawlers: Total rows added: 0 in 0.00 seconds
+0001.314 (0) Table wp_beerleaguewfCrawlers: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfCrawlers.table.gz - 0.3 KB)
+0001.320 (0) Table wp_beerleaguewfFileChanges: Total expected rows (approximate): 0
+0001.325 (0) Table wp_beerleaguewfFileChanges: Total rows added: 0 in 0.00 seconds
+0001.326 (0) Table wp_beerleaguewfFileChanges: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfFileChanges.table.gz - 0.3 KB)
+0001.333 (0) Table wp_beerleaguewfFileMods: Total expected rows (approximate): 6025
+0001.695 (0) Table wp_beerleaguewfFileMods: Total rows added: 6025 in 0.36 seconds
+0001.697 (0) Table wp_beerleaguewfFileMods: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfFileMods.table.gz - 477.6 KB)
+0001.703 (0) Table wp_beerleaguewfHits: Total expected rows (approximate): 408
+0001.749 (0) Table wp_beerleaguewfHits: Total rows added: 408 in 0.04 seconds
+0001.752 (0) Table wp_beerleaguewfHits: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfHits.table.gz - 21.8 KB)
+0001.760 (0) Table wp_beerleaguewfHoover: Total expected rows (approximate): 0
+0001.766 (0) Table wp_beerleaguewfHoover: Total rows added: 0 in 0.00 seconds
+0001.767 (0) Table wp_beerleaguewfHoover: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfHoover.table.gz - 0.3 KB)
+0001.772 (0) Table wp_beerleaguewfIssues: Total expected rows (approximate): 0
+0001.777 (0) Table wp_beerleaguewfIssues: Total rows added: 0 in 0.00 seconds
+0001.779 (0) Table wp_beerleaguewfIssues: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfIssues.table.gz - 0.4 KB)
+0001.787 (0) Table wp_beerleaguewfKnownFileList: Total expected rows (approximate): 6025
+0001.904 (0) Table wp_beerleaguewfKnownFileList: Total rows added: 6025 in 0.12 seconds
+0001.905 (0) Table wp_beerleaguewfKnownFileList: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfKnownFileList.table.gz - 60.2 KB)
+0001.911 (0) Table wp_beerleaguewfLeechers: Total expected rows (approximate): 12
+0001.917 (0) Table wp_beerleaguewfLeechers: Total rows added: 12 in 0.00 seconds
+0001.919 (0) Table wp_beerleaguewfLeechers: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfLeechers.table.gz - 0.4 KB)
+0001.924 (0) Table wp_beerleaguewfLiveTrafficHuman: Total expected rows (approximate): 0
+0001.929 (0) Table wp_beerleaguewfLiveTrafficHuman: Total rows added: 0 in 0.00 seconds
+0001.930 (0) Table wp_beerleaguewfLiveTrafficHuman: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfLiveTrafficHuman.table.gz - 0.3 KB)
+0001.938 (0) Table wp_beerleaguewfLocs: Total expected rows (approximate): 0
+0001.944 (0) Table wp_beerleaguewfLocs: Total rows added: 0 in 0.01 seconds
+0001.946 (0) Table wp_beerleaguewfLocs: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfLocs.table.gz - 0.4 KB)
+0001.951 (0) Table wp_beerleaguewfLogins: Total expected rows (approximate): 6
+0001.957 (0) Table wp_beerleaguewfLogins: Total rows added: 6 in 0.00 seconds
+0001.958 (0) Table wp_beerleaguewfLogins: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfLogins.table.gz - 0.7 KB)
+0001.965 (0) Table wp_beerleaguewfNet404s: Total expected rows (approximate): 0
+0001.971 (0) Table wp_beerleaguewfNet404s: Total rows added: 0 in 0.00 seconds
+0001.972 (0) Table wp_beerleaguewfNet404s: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfNet404s.table.gz - 0.3 KB)
+0001.981 (0) Table wp_beerleaguewfNotifications: Total expected rows (approximate): 3
+0001.988 (0) Table wp_beerleaguewfNotifications: Total rows added: 3 in 0.01 seconds
+0001.990 (0) Table wp_beerleaguewfNotifications: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfNotifications.table.gz - 0.6 KB)
+0001.997 (0) Table wp_beerleaguewfPendingIssues: Total expected rows (approximate): 0
+0002.001 (0) Table wp_beerleaguewfPendingIssues: Total rows added: 0 in 0.00 seconds
+0002.002 (0) Table wp_beerleaguewfPendingIssues: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfPendingIssues.table.gz - 0.4 KB)
+0002.008 (0) Table wp_beerleaguewfReverseCache: Total expected rows (approximate): 0
+0002.013 (0) Table wp_beerleaguewfReverseCache: Total rows added: 0 in 0.00 seconds
+0002.014 (0) Table wp_beerleaguewfReverseCache: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfReverseCache.table.gz - 0.3 KB)
+0002.024 (0) Table wp_beerleaguewfSNIPCache: Total expected rows (approximate): 0
+0002.030 (0) Table wp_beerleaguewfSNIPCache: Total rows added: 0 in 0.00 seconds
+0002.032 (0) Table wp_beerleaguewfSNIPCache: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfSNIPCache.table.gz - 0.4 KB)
+0002.038 (0) Table wp_beerleaguewfScanners: Total expected rows (approximate): 0
+0002.043 (0) Table wp_beerleaguewfScanners: Total rows added: 0 in 0.00 seconds
+0002.044 (0) Table wp_beerleaguewfScanners: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfScanners.table.gz - 0.3 KB)
+0002.051 (0) Table wp_beerleaguewfStatus: Total expected rows (approximate): 441
+0002.066 (0) Table wp_beerleaguewfStatus: Total rows added: 441 in 0.01 seconds
+0002.068 (0) Table wp_beerleaguewfStatus: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfStatus.table.gz - 8.6 KB)
+0002.073 (0) Table wp_beerleaguewfVulnScanners: Total expected rows (approximate): 0
+0002.076 (0) Table wp_beerleaguewfVulnScanners: Total rows added: 0 in 0.00 seconds
+0002.077 (0) Table wp_beerleaguewfVulnScanners: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfVulnScanners.table.gz - 0.3 KB)
+0002.084 (0) Table wp_beerleaguewpgmza: Total expected rows (approximate): 1
+0002.091 (0) Table wp_beerleaguewpgmza: Total rows added: 1 in 0.01 seconds
+0002.093 (0) Table wp_beerleaguewpgmza: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewpgmza.table.gz - 0.5 KB)
+0002.106 (0) Table wp_beerleaguewpgmza_categories: Total expected rows (approximate): 0
+0002.112 (0) Table wp_beerleaguewpgmza_categories: Total rows added: 0 in 0.00 seconds
+0002.113 (0) Table wp_beerleaguewpgmza_categories: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewpgmza_categories.table.gz - 0.3 KB)
+0002.128 (0) Table wp_beerleaguewpgmza_category_maps: Total expected rows (approximate): 0
+0002.134 (0) Table wp_beerleaguewpgmza_category_maps: Total rows added: 0 in 0.00 seconds
+0002.137 (0) Table wp_beerleaguewpgmza_category_maps: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewpgmza_category_maps.table.gz - 0.3 KB)
+0002.154 (0) Table wp_beerleaguewpgmza_circles: Total expected rows (approximate): 0
+0002.158 (0) Table wp_beerleaguewpgmza_circles: Total rows added: 0 in 0.00 seconds
+0002.160 (0) Table wp_beerleaguewpgmza_circles: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewpgmza_circles.table.gz - 0.3 KB)
+0002.171 (0) Table wp_beerleaguewpgmza_maps: Total expected rows (approximate): 1
+0002.177 (0) Table wp_beerleaguewpgmza_maps: Total rows added: 1 in 0.00 seconds
+0002.179 (0) Table wp_beerleaguewpgmza_maps: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewpgmza_maps.table.gz - 0.7 KB)
+0002.191 (0) Table wp_beerleaguewpgmza_polygon: Total expected rows (approximate): 0
+0002.196 (0) Table wp_beerleaguewpgmza_polygon: Total rows added: 0 in 0.00 seconds
+0002.197 (0) Table wp_beerleaguewpgmza_polygon: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewpgmza_polygon.table.gz - 0.4 KB)
+0002.209 (0) Table wp_beerleaguewpgmza_polylines: Total expected rows (approximate): 0
+0002.214 (0) Table wp_beerleaguewpgmza_polylines: Total rows added: 0 in 0.00 seconds
+0002.215 (0) Table wp_beerleaguewpgmza_polylines: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewpgmza_polylines.table.gz - 0.3 KB)
+0002.226 (0) Table wp_beerleaguewpgmza_rectangles: Total expected rows (approximate): 0
+0002.233 (0) Table wp_beerleaguewpgmza_rectangles: Total rows added: 0 in 0.01 seconds
+0002.235 (0) Table wp_beerleaguewpgmza_rectangles: finishing file (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewpgmza_rectangles.table.gz - 0.3 KB)
+0002.244 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleagueoptions.table.gz (1/52): adding to final database dump
+0002.257 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleagueusers.table.gz (2/52): adding to final database dump
+0002.259 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleagueusermeta.table.gz (3/52): adding to final database dump
+0002.260 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguecommentmeta.table.gz (4/52): adding to final database dump
+0002.262 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguecomments.table.gz (5/52): adding to final database dump
+0002.264 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguelinks.table.gz (6/52): adding to final database dump
+0002.265 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguepostmeta.table.gz (7/52): adding to final database dump
+0002.361 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleagueposts.table.gz (8/52): adding to final database dump
+0002.379 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleagueterm_relationships.table.gz (9/52): adding to final database dump
+0002.381 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleagueterm_taxonomy.table.gz (10/52): adding to final database dump
+0002.383 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguetermmeta.table.gz (11/52): adding to final database dump
+0002.385 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleagueterms.table.gz (12/52): adding to final database dump
+0002.386 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguegf_draft_submissions.table.gz (13/52): adding to final database dump
+0002.388 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguegf_entry.table.gz (14/52): adding to final database dump
+0002.389 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguegf_entry_meta.table.gz (15/52): adding to final database dump
+0002.393 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguegf_entry_notes.table.gz (16/52): adding to final database dump
+0002.394 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguegf_form.table.gz (17/52): adding to final database dump
+0002.395 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguegf_form_meta.table.gz (18/52): adding to final database dump
+0002.397 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguegf_form_view.table.gz (19/52): adding to final database dump
+0002.399 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleagueresponsive_menu_pro.table.gz (20/52): adding to final database dump
+0002.402 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfBadLeechers.table.gz (21/52): adding to final database dump
+0002.403 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfBlockedCommentLog.table.gz (22/52): adding to final database dump
+0002.405 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfBlockedIPLog.table.gz (23/52): adding to final database dump
+0002.406 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfBlocks7.table.gz (24/52): adding to final database dump
+0002.408 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfConfig.table.gz (25/52): adding to final database dump
+0002.461 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfCrawlers.table.gz (26/52): adding to final database dump
+0002.462 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfFileChanges.table.gz (27/52): adding to final database dump
+0002.463 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfFileMods.table.gz (28/52): adding to final database dump
+0002.613 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfHits.table.gz (29/52): adding to final database dump
+0002.641 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfHoover.table.gz (30/52): adding to final database dump
+0002.643 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfIssues.table.gz (31/52): adding to final database dump
+0002.644 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfKnownFileList.table.gz (32/52): adding to final database dump
+0002.709 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfLeechers.table.gz (33/52): adding to final database dump
+0002.711 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfLiveTrafficHuman.table.gz (34/52): adding to final database dump
+0002.712 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfLocs.table.gz (35/52): adding to final database dump
+0002.714 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfLogins.table.gz (36/52): adding to final database dump
+0002.717 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfNet404s.table.gz (37/52): adding to final database dump
+0002.720 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfNotifications.table.gz (38/52): adding to final database dump
+0002.723 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfPendingIssues.table.gz (39/52): adding to final database dump
+0002.725 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfReverseCache.table.gz (40/52): adding to final database dump
+0002.726 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfSNIPCache.table.gz (41/52): adding to final database dump
+0002.728 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfScanners.table.gz (42/52): adding to final database dump
+0002.730 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfStatus.table.gz (43/52): adding to final database dump
+0002.737 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewfVulnScanners.table.gz (44/52): adding to final database dump
+0002.739 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewpgmza.table.gz (45/52): adding to final database dump
+0002.742 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewpgmza_categories.table.gz (46/52): adding to final database dump
+0002.743 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewpgmza_category_maps.table.gz (47/52): adding to final database dump
+0002.745 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewpgmza_circles.table.gz (48/52): adding to final database dump
+0002.747 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewpgmza_maps.table.gz (49/52): adding to final database dump
+0002.749 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewpgmza_polygon.table.gz (50/52): adding to final database dump
+0002.751 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewpgmza_polylines.table.gz (51/52): adding to final database dump
+0002.753 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db-table-wp_beerleaguewpgmza_rectangles.table.gz (52/52): adding to final database dump
+0002.755 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db.gz: finished writing out complete database file (1080 KB)
+0002.825 (0) Total database tables backed up: 52 (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db.gz, size: 1123818, sha256)
+0002.847 (0) backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db.gz: db: This file has not yet been successfully uploaded: will queue
+0002.849 (0) Saving backup history. Total backup size: 1.1 MB
+0002.858 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0002.868 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0002.874 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-3a349e3edf0285b31936b8c66ee7d643)
+0002.875 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0002.924 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0003.380 (0) Dropbox quota usage: used=228461.6 MB, total=1059200 MB, available=830738.4 MB
+0003.381 (0) Dropbox: Attempt to upload: backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db.gz to: backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db.gz
+0005.096 (0) Dropbox chunked upload: 93.3 % uploaded (AAAAAAACmDWobOp2tWemJw, 1048576, 3072 KB)
+0008.594 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAACmDWobOp2tWemJw, 1123818, 3072 KB)
+0011.487 (0) Recording as successfully uploaded: backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db.gz (60294c146fe6a1d2c6f0797223b8fa21)
+0011.491 (0) Deleting local file: backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db.gz: skipped: user has unchecked updraft_delete_local option
+0011.493 (0) Dropbox: File upload success (backup_2018-05-16-1827_Beer_League_Talk_Dev_6e0bdf88d03d-db.gz): 1097 KB in 8s (135 KB/s)
+0011.498 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=30
+0011.500 (0) Number of backup sets in history: 12; groups (db): 1
+0011.501 (0) Examining (for databases) backup set with group_id=0, nonce=6e0bdf88d03d, datestamp=1526509673 (May 16 2018 22:27:53)
+0011.502 (0) This backup set is the backup set just made, so will not be deleted.
+0011.502 (0) Examining (for databases) backup set with group_id=0, nonce=45a25d482ab5, datestamp=1526402468 (May 15 2018 16:41:08)
+0011.503 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.504 (0) Examining (for databases) backup set with group_id=0, nonce=5d63275f5839, datestamp=1526327128 (May 14 2018 19:45:28)
+0011.504 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.504 (0) Examining (for databases) backup set with group_id=0, nonce=95730744c725, datestamp=1526053225 (May 11 2018 15:40:25)
+0011.504 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.505 (0) Examining (for databases) backup set with group_id=0, nonce=7e633c29a476, datestamp=1525989208 (May 10 2018 21:53:28)
+0011.505 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0011.506 (0) Examining (for databases) backup set with group_id=0, nonce=67c1c195f953, datestamp=1525966884 (May 10 2018 15:41:24)
+0011.506 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.507 (0) Examining (for databases) backup set with group_id=0, nonce=28fbd28817bc, datestamp=1525886113 (May 09 2018 17:15:13)
+0011.507 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.507 (0) Examining (for databases) backup set with group_id=0, nonce=a1b13bf95f02, datestamp=1525793894 (May 08 2018 15:38:14)
+0011.507 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.508 (0) Examining (for databases) backup set with group_id=0, nonce=d7ed97759f9a, datestamp=1525707726 (May 07 2018 15:42:06)
+0011.508 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.508 (0) Examining (for databases) backup set with group_id=0, nonce=c79b27a978c7, datestamp=1525707664 (May 07 2018 15:41:04)
+0011.508 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.509 (0) Examining (for databases) backup set with group_id=0, nonce=f5237b1f40c7, datestamp=1525707492 (May 07 2018 15:38:12)
+0011.509 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.509 (0) Examining (for databases) backup set with group_id=0, nonce=cd607861ad1c, datestamp=1525705260 (May 07 2018 15:01:00)
+0011.509 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.510 (0) Number of backup sets in history: 12; groups (files): 1
+0011.511 (0) Examining (for files) backup set with nonce=6e0bdf88d03d, datestamp=1526509673 (May 16 2018 22:27:53)
+0011.511 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.512 (0) Examining (for files) backup set with nonce=45a25d482ab5, datestamp=1526402468 (May 15 2018 16:41:08)
+0011.512 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.513 (0) Examining (for files) backup set with nonce=5d63275f5839, datestamp=1526327128 (May 14 2018 19:45:28)
+0011.513 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.513 (0) Examining (for files) backup set with nonce=95730744c725, datestamp=1526053225 (May 11 2018 15:40:25)
+0011.513 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.513 (0) Examining (for files) backup set with nonce=7e633c29a476, datestamp=1525989208 (May 10 2018 21:53:28)
+0011.513 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0011.514 (0) Examining (for files) backup set with nonce=67c1c195f953, datestamp=1525966884 (May 10 2018 15:41:24)
+0011.514 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.515 (0) Examining (for files) backup set with nonce=28fbd28817bc, datestamp=1525886113 (May 09 2018 17:15:13)
+0011.515 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.515 (0) Examining (for files) backup set with nonce=a1b13bf95f02, datestamp=1525793894 (May 08 2018 15:38:14)
+0011.515 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.516 (0) Examining (for files) backup set with nonce=d7ed97759f9a, datestamp=1525707726 (May 07 2018 15:42:06)
+0011.516 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.516 (0) Examining (for files) backup set with nonce=c79b27a978c7, datestamp=1525707664 (May 07 2018 15:41:04)
+0011.516 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.516 (0) Examining (for files) backup set with nonce=f5237b1f40c7, datestamp=1525707492 (May 07 2018 15:38:12)
+0011.516 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.517 (0) Examining (for files) backup set with nonce=cd607861ad1c, datestamp=1525705260 (May 07 2018 15:01:00)
+0011.517 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.517 (0) Retain: saving new backup history (sets now: 12) and finishing retain operation
+0011.520 (0) Resume backup (6e0bdf88d03d, 0): finish run
+0011.523 (0) Decremented the semaphore (d) by 1
+0011.525 (0) Semaphore (d) unlocked
+0011.526 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0011.531 (0) The backup apparently succeeded and is now complete
+0011.532 (0) No email will/can be sent - the user has not configured an email address.
+0011.533 (0) The backup apparently succeeded and is now complete.

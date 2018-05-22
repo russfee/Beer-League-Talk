@@ -1,0 +1,176 @@
+/*=================================================
+Home_Layout SCSS
+=================================================== */
+
+
+.home-posts-container {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	
+	@media screen and (max-width: 756px) {
+		flex-flow: column;
+}
+
+}
+.home-posts-posts {
+	//flex: 1;
+	width: 50%;
+	
+	@media screen and (max-width: 756px) {
+		width: 100%
+}
+
+}
+.home-posts-sidebar {
+	//flex: 1;
+	width: 25%;
+	
+	@media screen and (max-width: 756px) {
+		width: 100%;
+}
+
+}
+
+.listen-container {
+	display: flex;
+	flex-flow: row;
+	height: 300px;
+	
+	@media screen and (max-width: 756px) {
+		flex-flow: column;		
+}
+
+}
+.listen-item-1 {
+	background-image: url(http://beerleaguedev.local/wp-content/uploads/2018/05/panel1.png);
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	img {
+		max-height: 150px;
+		
+		@media screen and (max-width: 756px) {
+			max-height: 75px;
+}
+
+	}
+
+}
+.listen-item-2 {
+	background-image: url(http://beerleaguedev.local/wp-content/uploads/2018/05/panel2.png);
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	img {
+		max-height: 150px;
+		
+		@media screen and (max-width: 756px) {
+			max-height: 75px;
+}
+	}
+}
+.listen-item-3 {
+	background-image: url(http://beerleaguedev.local/wp-content/uploads/2018/05/panel3.png);
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	img {
+		max-height: 150px;
+		
+		@media screen and (max-width: 756px) {
+			max-height: 75px;
+}
+	}
+
+}
+
+.featured-container {
+	display: flex;
+	flex-flow: row;
+	height: 300px;
+	
+	@media screen and (max-width: 756px) {
+		flex-flow: column;	
+		height: 500px;	
+}
+
+}
+.featured-item-1 {
+	//background-image: url(http://beerleaguedev.local/wp-content/uploads/2018/05/panel1.png);
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	img {
+		max-height: 200px;
+		
+		@media screen and (max-width: 756px) {
+			max-height: 150px;
+}
+
+	}
+
+}
+.featured-item-2 {
+	//background-image: url(http://beerleaguedev.local/wp-content/uploads/2018/05/panel2.png);
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	img {
+		max-height: 200px;
+		
+		@media screen and (max-width: 756px) {
+			max-height: 150px;
+}
+	}
+}
+.featured-item-3 {
+	//background-image: url(http://beerleaguedev.local/wp-content/uploads/2018/05/panel3.png);
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	img {
+		max-height: 200px;
+		
+		@media screen and (max-width: 756px) {
+			max-height: 150px;
+}
+	}
+
+}
